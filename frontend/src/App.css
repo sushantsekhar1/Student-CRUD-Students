@@ -1,0 +1,116 @@
+/* .App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto 30px auto;
+  max-width: 400px;
+  background-color: #5fbd12;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px rgba(4, 75, 85, 0.1);
+}
+
+.form input {
+  width: 100%;
+  margin: 6px 0;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #a82f2f;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+} */
+
+
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background: #f2f2f2;
+  padding: 20px;
+}
+
+h2, h3 {
+  color: #003366; /* Deep Blue */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 20px auto;
+}
+
+input {
+  margin: 5px;
+  padding: 10px;
+  border: 2px solid #003366; /* Deep Blue */
+  border-radius: 5px;
+  background: #4f1f86;
+}
+
+button {
+  background: #007bff; /* Bright Blue */
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #0056b3; /* Darker Blue */
+}
+
+.delete-btn {
+  background: #dc3545; /* Red */
+}
+
+.delete-btn:hover {
+  background: #c82333;
+}
+
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: rgb(146, 129, 129);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background: #003366; /* Deep Blue */
+  color: white;
+}
